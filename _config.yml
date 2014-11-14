@@ -1,5 +1,6 @@
 gems:
   - jekyll-mentions
+  - jekyll-sitemap
 
 footer-links:
   github: nicolasbock
@@ -7,4 +8,5 @@ footer-links:
 pages_list:
   Main: "/technical-reports"
 
+url: http://www.freeon.org/technical-reports
 baseurl: "/technical-reports"
