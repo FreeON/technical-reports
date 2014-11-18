@@ -1,6 +1,5 @@
 ---
-layout: default
 title: Technical Reports
 ---
 
-...
+# Technical Reports
