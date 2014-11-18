@@ -8,6 +8,8 @@ footer-links:
 pages_list:
   Main: "/technical-reports"
 
+permalink: none
+
 defaults:
   -
     scope:
