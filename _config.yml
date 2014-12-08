@@ -6,7 +6,7 @@ footer-links:
   github: nicolasbock
 
 pages_list:
-  Main: "/technical-reports"
+  Main: "/technical-reports/"
 
 permalink: none
 
