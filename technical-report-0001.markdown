@@ -2,6 +2,8 @@
 title: Technical Report 1
 ---
 
+# Manifesto
+
 A majority use of supercomputers involves the broad application of electronic
 structure, as many of the most interesting and important problems in
 chemistry, biology and materials science can only be answered with non-trivial
@@ -110,7 +112,7 @@ $$n$$-body model able to absorb massive heterogeneous parallelism.  Each of
 these developments is disruptive.  The scientific and computational landscape
 is changing so fast, it seems that only collaborative, peer driven development
 can hope to keep pace.  We are writing to engage with the interested and like
-minded in areas related to these developments, 1-4 , as well as broadly in the
+minded in areas related to these developments, 1-4, as well as broadly in the
 physical and data sciences.
 
 It is important to establish veracity, performance and generacity metrics and
