@@ -26,6 +26,8 @@ task :publish => [:generate] do
     system "git rm -r ."
     system "rm -rf *"
     system "mv #{tmp}/* ."
+    system "touch .nojekyll"
+    system "git add .nojekyll"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -am #{message.shellescape}"
