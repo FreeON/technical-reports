@@ -16,3 +16,5 @@ To build
 ~~~
 $ rake
 ~~~
+
+The webpage is served at http://www.freeon.org/technical-reports.
