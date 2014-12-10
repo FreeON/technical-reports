@@ -10,3 +10,9 @@ The webpage can be served locally via
 ~~~
 $ bundle exec jekyll serve
 ~~~
+
+To build
+
+~~~
+$ rake
+~~~
