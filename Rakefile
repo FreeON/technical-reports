@@ -6,7 +6,7 @@ require 'yaml'
 require 'tmpdir'
 require 'jekyll'
 
-desc "Generate blog files"
+desc "Generate static webpages"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
@@ -15,7 +15,7 @@ task :generate do
 end
 
 
-desc "Generate and publish blog to gh-pages"
+desc "Generate and publish pages to gh-pages"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
