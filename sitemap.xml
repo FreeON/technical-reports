@@ -4,15 +4,22 @@
   
   
   <url>
+    <loc>http://www.freeon.org/technical-reports/bibliography.html</loc>
+    <lastmod>2014-12-10T06:38:43-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>http://www.freeon.org/technical-reports/</loc>
-    <lastmod>2014-12-10T06:32:49-07:00</lastmod>
+    <lastmod>2014-12-10T06:38:43-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://www.freeon.org/technical-reports/technical-report-0001.html</loc>
-    <lastmod>2014-12-10T06:32:49-07:00</lastmod>
+    <lastmod>2014-12-10T06:38:43-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
