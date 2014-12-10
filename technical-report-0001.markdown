@@ -15,23 +15,24 @@ e.g.  from $$O(N^4) \rightarrow O(N)$$.   Also, multi-decade efforts into
 theory of the single-determinant Kohn-Sham representation are beginning to
 convincingly yield high quality solutions for the non-local static
 correlation, based on the long-range Fock exchange; these solutions are
-apparent in  range-separated exchange\*, and in correlation on top of exchange
-methods\*.  These long-ranged effects are key to understanding the chemistry
-and physics of metal oxide systems, from the biological reaction center to
-engineered perovskite systems in the materials genome.   Achieving scalable
-parallelism, into the high throughput, strong scaling regime, obtaining
-reduced $$O(N^4) \rightarrow O(N)$$ complexities and enabling transformative,
-high quality solutions to large problems involving long range correlation
-effects is a grail-level enterprise.  We are writing to propose some enabling
-principles & technologies that might underpin such an endeavor.  Since our
-first contributions\*, the FreeON project has targeted methods based primarily
-on the Fock exchange;  in the mid 90's, we introduced the first $$O(N)$$ method
-for the two-electron integral (ERI) problem in Hartree-Fock theory\*.  Later,
-we were the first to develop Gamma-point methods for the Fock exchange\*,  the
-first to demonstrate an $$O(N)$$ solve of the Coupled-Perturbed Hartree-Fock
-(CPSCF) static response problem\*, through fourth order in the dielectric
-response\*, and also the first to achieve an $$O(N)$$ solution for the
-Time-Dependent Hartree-Fock (TD-SCF/RPA) matrix eigenvalue problem\*.
+apparent in  range-separated exchange {% cite Scuseria2006 %}, and in
+correlation on top of exchange methods\*.  These long-ranged effects are key
+to understanding the chemistry and physics of metal oxide systems, from the
+biological reaction center to engineered perovskite systems in the materials
+genome.   Achieving scalable parallelism, into the high throughput, strong
+scaling regime, obtaining reduced $$O(N^4) \rightarrow O(N)$$ complexities and
+enabling transformative, high quality solutions to large problems involving
+long range correlation effects is a grail-level enterprise.  We are writing to
+propose some enabling principles & technologies that might underpin such an
+endeavor.  Since our first contributions\*, the FreeON project has targeted
+methods based primarily on the Fock exchange;  in the mid 90's, we introduced
+the first $$O(N)$$ method for the two-electron integral (ERI) problem in
+Hartree-Fock theory\*.  Later, we were the first to develop Gamma-point
+methods for the Fock exchange\*,  the first to demonstrate an $$O(N)$$ solve
+of the Coupled-Perturbed Hartree-Fock (CPSCF) static response problem\*,
+through fourth order in the dielectric response\*, and also the first to
+achieve an $$O(N)$$ solution for the Time-Dependent Hartree-Fock (TD-SCF/RPA)
+matrix eigenvalue problem\*.
 
 The FreeON project\* has been through many innovation cycles involving the
 interdependence of five and more coupled solvers, demonstrating to us that
@@ -135,3 +136,7 @@ don't know the precise form this heterogeneous parallelism will take, we
 believe that a data-science orientation provides the best opportunities for
 exploiting it, for achieving a simplified code base, lower barriers to entry
 and otherwise future proofing collaborative developments.
+
+# Bibliography
+
+{% bibliography %}
