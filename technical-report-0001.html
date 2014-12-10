@@ -141,7 +141,7 @@ and persistence load balancing*,  caching*, propagation of auxiliary data
 channels*, multi-time scale methods including tree-based averages*, parallel
 in time methods* and the like.  <script type="math/tex">N</script>-body frameworks offer tree-based kernel
 reductions related to data science problems encountering intense market
-pressures, such as MapReduce* and spark*.   We are interested in the
+pressures, such as MapReduce <a href="#apache:hadoop">(“Apache Hadoop/MapReduce,” 2014)</a> and spark <a href="#apache:spark">(“Apache Spark,” 2014)</a>.   We are interested in the
 alignment with commodity analytics because it represents a collaborative
 groundswell that cannot be matched in managed environments, and because it
 provides a flexible orientation for evolution within a rapidly changing
@@ -151,7 +151,7 @@ algebra* with fast solvers for learning and classification*.  In electronic
 structure, these solvers have demonstrated the ability to achieve <script type="math/tex">O(N)</script>
 scaling for the computation of ill-conditioned matrix inverses*, where
 truncation schemes fail impressively*, and also access to strong parallel
-scaling in the <script type="math/tex">O(N)</script> regime, so far with access up to 500 cores/atom*.</p>
+scaling in the <script type="math/tex">O(N)</script> regime, so far with access up to 500 cores/atom <a href="#Bock2014">(Bock, Challacombe, &amp; Kalé, 2014)</a>.</p>
 
 <p>This is a coincidence of remarkable new developments:  (1) in DFT, the ability
 of single determinant representations to capture strong, many center
@@ -171,7 +171,7 @@ physical and data sciences.</p>
 <p>It is important to establish veracity, performance and generacity metrics and
 regressions for thin, high performance <script type="math/tex">n</script>-body libraries; we are leading at
 github with the spammpack library* for fast multiplication of matrices with
-decay*.  This sits on top of OpenMP and charm++ at the moment, and below
+decay*.  This sits on top of OpenMP and charm++ <a href="#charmpp">(“Charm++,” 2014)</a> at the moment, and below
 solvers for electronic structure, like the <script type="math/tex">n</script>-body Fock exchange*.   With
 a collaborative approach, we think tremendous predictive power can fit into a
 4U form factor over the next decade.  <script type="math/tex">N</script>-body solvers for the Fock exchange
@@ -192,7 +192,11 @@ and otherwise future proofing collaborative developments.</p>
 <h1 id="bibliography">Bibliography</h1>
 
 <ol class="bibliography"><li><span id="Scuseria2006">Vydrov, O. A., Heyd, J., Krukau, A. V., &amp; Scuseria, G. E. (2006). Importance of short-range versus long-range Hartree-Fock exchange
-     for the performance of hybrid density functionals. <i>The Journal of Chemical Physics</i>, <i>125</i>(7).</span></li></ol>
+     for the performance of hybrid density functionals. <i>The Journal of Chemical Physics</i>, <i>125</i>(7).</span></li>
+<li><span id="Bock2014">Bock, N., Challacombe, M., &amp; Kalé, L. V. (2014). Solvers for O(N) Electronic Structure in the Strong Scaling Limit. <i>CoRR</i>, <i>abs/1403.7458</i>. Retrieved from http://arxiv.org/abs/1403.7458</span></li>
+<li><span id="apache:spark">Apache Spark. (2014). Retrieved from https://spark.apache.org</span></li>
+<li><span id="apache:hadoop">Apache Hadoop/MapReduce. (2014). Retrieved from http://hadoop.apache.org/</span></li>
+<li><span id="charmpp">Charm++. (2014). Retrieved from http://charm.cs.uiuc.edu/</span></li></ol>
 
 
         </section>
