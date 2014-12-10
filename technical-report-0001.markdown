@@ -89,7 +89,7 @@ and persistence load balancing\*,  caching\*, propagation of auxiliary data
 channels\*, multi-time scale methods including tree-based averages\*, parallel
 in time methods\* and the like.  $$N$$-body frameworks offer tree-based kernel
 reductions related to data science problems encountering intense market
-pressures, such as MapReduce\* and spark\*.   We are interested in the
+pressures, such as MapReduce {% cite apache:hadoop %} and spark {% cite apache:spark %}.   We are interested in the
 alignment with commodity analytics because it represents a collaborative
 groundswell that cannot be matched in managed environments, and because it
 provides a flexible orientation for evolution within a rapidly changing
@@ -99,7 +99,7 @@ algebra\* with fast solvers for learning and classification\*.  In electronic
 structure, these solvers have demonstrated the ability to achieve $$O(N)$$
 scaling for the computation of ill-conditioned matrix inverses\*, where
 truncation schemes fail impressively\*, and also access to strong parallel
-scaling in the $$O(N)$$ regime, so far with access up to 500 cores/atom\*.
+scaling in the $$O(N)$$ regime, so far with access up to 500 cores/atom {% cite Bock2014 %}.
 
 This is a coincidence of remarkable new developments:  (1) in DFT, the ability
 of single determinant representations to capture strong, many center
@@ -119,7 +119,7 @@ physical and data sciences.
 It is important to establish veracity, performance and generacity metrics and
 regressions for thin, high performance $$n$$-body libraries; we are leading at
 github with the spammpack library\* for fast multiplication of matrices with
-decay\*.  This sits on top of OpenMP and charm++ at the moment, and below
+decay\*.  This sits on top of OpenMP and charm++ {% cite charmpp %} at the moment, and below
 solvers for electronic structure, like the $$n$$-body Fock exchange\*.   With
 a collaborative approach, we think tremendous predictive power can fit into a
 4U form factor over the next decade.  $$N$$-body solvers for the Fock exchange
