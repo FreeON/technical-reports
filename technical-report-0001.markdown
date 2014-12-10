@@ -25,7 +25,7 @@ high quality solutions to large problems involving long range correlation
 effects is a grail-level enterprise.  We are writing to propose some enabling
 principles & technologies that might underpin such an endeavor.  Since our
 first contributions\*, the FreeON project has targeted methods based primarily
-on the Fock exchange;  in the mid 90's, we introduced the first O(N) method
+on the Fock exchange;  in the mid 90's, we introduced the first $$O(N)$$ method
 for the two-electron integral (ERI) problem in Hartree-Fock theory\*.  Later,
 we were the first to develop Gamma-point methods for the Fock exchange\*,  the
 first to demonstrate an $$O(N)$$ solve of the Coupled-Perturbed Hartree-Fock
